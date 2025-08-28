@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@KENYE SYSTEM'S_official</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #1E1E2F;
+    color: #333333;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background:#0A192F;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow:0 2px 5px rgba(125, 182, 115, 0.3); ;
+    z-index: 1000;
+    position: sticky;
+    top:0;
+}
+
+.logo{
+     border-radius: 20px;   
+    }
+
+.logo2{
+     border-radius: 20px;   
+    }
+
+.headerimgs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+    border-radius: 0 0 10px 10px;   
+}
+
+nav ul {
+    list-style:inside;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+
+.seccion {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    background: #1f68a8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social a {
+    position: sticky;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+    color: white;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <Nav>
+        <h1>KENYE SYSTEM'S</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#mision">Mision</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+   
+    <section id="inicio" class="seccion">
+        <h2>Bienvenidos Somos KENYE SYSTEM'S</h2>
+        <p>Impulsamos tu negocio con innovación, tecnolocia, confianza y resultados garantizados.</p>
+        <header class="headerimgs">
+        <img style="border: radius 10cqmax;" class="logo" src="LOGO.jpeg" width="200" height="200" alt="Logo de KENYE SYSTEM'S">
+        <img style="border: radius 10cqmax;" class="logo2" src="LOGO2.jpeg" width="200" height="200" alt="Logo de KENYE SYSTEM'S">
+        </header>
+    </section>
+
+    <section id="vision" class="seccion">
+        <h2>Vision de KENYE SYSTEM'S</h2>
+        <p>Ser una empresa líder en soluciones tecnológicas, reconocida por su innovación, calidad y compromiso con el éxito de nuestros clientes a nivel global.</p>
+    </section>
+
+    <section id="mision" class="seccion">
+        <h2>Mision de KENYE SYSTEM'S</h2>
+        <p>Proveer soluciones tecnológicas integrales y personalizadas que impulsen el crecimiento y la eficiencia de nuestros clientes, mediante un equipo de profesionales comprometidos con la excelencia y la innovación constante.</p>
+    </section>
+
+    <section id="servicios" class="seccion">
+        <h2>Nuestros Servicios</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Desarrollo Web</h3>
+                <p>Sitios web modernos, funcionales y adaptables a todo tipo de dispositivos.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Marketing Digital</h3>
+                <p>Campañas publicitarias efectivas en redes sociales, diseños de banners y mas.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Soporte Técnico</h3>
+                <p>Asistencia rápida y profesional enfocado a Sistemas De Inventarios para empresas y particulares .</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Escribe tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+     <div class="social">
+    <a class="facebook" href="https://www.facebook.com/profile.php?id=61578317515920" target="_blank"><i class="fab fa-facebook-f">Facebook</i></a>
+    <a class="instagram" href="https://www.instagram.com/kenye_system.s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram">Instagram</i></a>
+  </div>
+
+    <footer>
+        <p>&copy; 2025 KENYE SYSTEM'S - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
